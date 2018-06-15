@@ -20,3 +20,10 @@ if __name__ == '__main__':
     for filho in raira.filhos:
         print(filho.nome)
 
+    raira.sobrenome = 'Lima'
+    print(raira.sobrenome)
+
+    del raira.filhos
+    print(raira.__dict__)
+    print(rubson.__dict__)
+
