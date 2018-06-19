@@ -25,8 +25,20 @@
       <file leaf-file-name="pessoa.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oo/pessoa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste_carro.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/teste_carro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,17 +46,8 @@
       <file leaf-file-name="carro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oo/carro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="614">
               <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matematica/base/mat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -89,6 +92,7 @@
         <option value="$PROJECT_DIR$/exercicios/contagem_de_caracteres_lista.py" />
         <option value="$PROJECT_DIR$/exercicios/contagem_de_caracteres_doct.py" />
         <option value="$PROJECT_DIR$/oo/carro.py" />
+        <option value="$PROJECT_DIR$/oo/teste_carro.py" />
         <option value="$PROJECT_DIR$/oo/pessoa.py" />
       </list>
     </option>
@@ -167,40 +171,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Doctests in carro (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="novo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oo/carro.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
-    <configuration name="Doctests in carro (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="novo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oo/carro.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
     <configuration name="Doctests in carro (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="novo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +188,7 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
     </configuration>
-    <configuration name="Doctests in carro" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for teste_carro.CarroTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="novo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,28 +197,50 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oo/carro.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;teste_carro.CarroTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for teste_carro.CarroTestCase.teste_acelerar" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="novo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;teste_carro.CarroTestCase.teste_acelerar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="novo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;teste_carro.CarroTestCase.teste_velocidade_inicial&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Doctests in carro" />
-      <item itemvalue="Python tests.Doctests in carro (3)" />
-      <item itemvalue="Python tests.Doctests in carro (4)" />
       <item itemvalue="Python tests.Doctests in carro (5)" />
       <item itemvalue="Python.pessoa" />
+      <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" />
+      <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase.teste_acelerar" />
+      <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.pessoa" />
+        <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase" />
+        <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" />
+        <item itemvalue="Python tests.Unittests for teste_carro.CarroTestCase.teste_acelerar" />
         <item itemvalue="Python tests.Doctests in carro (5)" />
-        <item itemvalue="Python tests.Doctests in carro (4)" />
-        <item itemvalue="Python tests.Doctests in carro (3)" />
-        <item itemvalue="Python tests.Doctests in carro" />
       </list>
     </recent_temporary>
   </component>
@@ -266,24 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 53m 02s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 54m 31s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 54m 47s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 56m 23s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 57m 01s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_carro - 2018.06.19 at 09h 57m 52s.xml">
-      <configuration name="Doctests in carro" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctests_in_carro - 2018.06.19 at 10h 00m 36s.xml">
       <configuration name="Doctests in carro" configurationId="tests" />
     </history-entry>
@@ -295,6 +269,24 @@
     </history-entry>
     <history-entry file="Doctests_in_carro_(5) - 2018.06.19 at 10h 05m 25s.xml">
       <configuration name="Doctests in carro (5)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase_teste_velocidade_inicial - 2018.06.19 at 10h 55m 32s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase_teste_velocidade_inicial - 2018.06.19 at 10h 56m 30s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase_teste_acelerar - 2018.06.19 at 10h 59m 35s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase.teste_acelerar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase_teste_acelerar - 2018.06.19 at 10h 59m 59s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase.teste_acelerar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase_teste_velocidade_inicial - 2018.06.19 at 11h 00m 09s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase.teste_velocidade_inicial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_teste_carro_CarroTestCase - 2018.06.19 at 11h 00m 15s.xml">
+      <configuration name="Unittests for teste_carro.CarroTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -459,24 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios/contagem_de_caracteres_lista.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/runpy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="192" selection-start-line="192" selection-end-line="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matematica/executar_matematica.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -487,17 +465,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercicios/contagem_de_caracteres_lista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oo/carro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="614">
           <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matematica/executar_matematica.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/teste_carro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oo/pessoa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
