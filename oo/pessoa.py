@@ -10,10 +10,20 @@ class Pessoa:
     def cumprimentar(self):
         return f'Olá {id(self)}'
 
+    @staticmethod
+    def metodo_estatico():
+        return 42
+
+    @classmethod
+    def nome_e_atributos_de_classe(cls):
+        return f'{cls} - olhos {cls.olhos}'
+
+class Homem(Pessoa):
+    pass
 
 if __name__ == '__main__':
 
-    rubson = Pessoa(nome='Rubson')
+    rubson = Homem(nome='Rubson')
     raira = Pessoa(rubson, nome='Raira')
     print(Pessoa.cumprimentar(rubson))
     print(id(rubson))
@@ -37,3 +47,10 @@ if __name__ == '__main__':
     print(rubson.olhos)
     print(raira.olhos)
     print(id(Pessoa.olhos), id(rubson.olhos), id(raira.olhos))
+    print(Pessoa.metodo_estatico(), raira.metodo_estatico())
+    print(Pessoa.nome_e_atributos_de_classe(), raira.nome_e_atributos_de_classe())
+    pessoa = Pessoa('Anonimo')
+    print(isinstance(pessoa, Pessoa))
+    print(isinstance(pessoa, Homem))
+    print(isinstance(rubson, Pessoa))
+    print(isinstance(rubson, Homem))

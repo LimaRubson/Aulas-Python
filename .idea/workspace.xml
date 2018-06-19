@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0749f8-f7ca-4d2e-9790-a558306159d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/carro.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo/carro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oo/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo/pessoa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,20 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pessoa.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pessoa.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oo/pessoa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="704">
+              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carro.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="carro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oo/carro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+            <state relative-caret-position="508">
+              <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -89,8 +88,8 @@
         <option value="$PROJECT_DIR$/matematica/base/mat.py" />
         <option value="$PROJECT_DIR$/exercicios/contagem_de_caracteres_lista.py" />
         <option value="$PROJECT_DIR$/exercicios/contagem_de_caracteres_doct.py" />
-        <option value="$PROJECT_DIR$/oo/pessoa.py" />
         <option value="$PROJECT_DIR$/oo/carro.py" />
+        <option value="$PROJECT_DIR$/oo/pessoa.py" />
       </list>
     </option>
   </component>
@@ -149,23 +148,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in carro (5)">
-    <configuration name="Doctests in carro (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pessoa">
+    <configuration name="pessoa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="novo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oo/carro.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oo/pessoa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Doctests in carro (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="novo" />
@@ -237,18 +237,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Doctests in carro" />
-      <item itemvalue="Python tests.Doctests in carro (2)" />
       <item itemvalue="Python tests.Doctests in carro (3)" />
       <item itemvalue="Python tests.Doctests in carro (4)" />
       <item itemvalue="Python tests.Doctests in carro (5)" />
+      <item itemvalue="Python.pessoa" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pessoa" />
         <item itemvalue="Python tests.Doctests in carro (5)" />
         <item itemvalue="Python tests.Doctests in carro (4)" />
         <item itemvalue="Python tests.Doctests in carro (3)" />
         <item itemvalue="Python tests.Doctests in carro" />
-        <item itemvalue="Python tests.Doctests in carro (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -480,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oo/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matematica/base/mat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -496,8 +489,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oo/carro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+        <state relative-caret-position="508">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/pessoa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
